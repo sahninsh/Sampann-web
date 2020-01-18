@@ -1,0 +1,404 @@
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: 'Montserrat';
+			overflow-x: hidden;
+		}
+		.land {
+			height: 100vh;
+
+			width: 100vw;
+			background-color: #f6f6f6;
+			display: flex;
+			flex-direction: row;
+		}
+		.text {
+			width: 40vw;
+			text-align: center;
+			margin-top: auto;
+			margin-bottom: auto;
+			transform: translateY(-5vh);
+		}
+		.land-img {
+			background-image: url('food.png');
+			height: 80vh;
+			width: 60vw;
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.img-container {
+			width: 60vw;
+			margin-top: auto;
+			margin-bottom: auto;
+		}
+		.t {
+			font-size: 60px;
+			margin-bottom: 1vh;
+		}
+		.dont {
+			font-size: 23px;
+
+			margin-bottom: 4vh;
+		}
+		.butt {
+			padding: 15px 25px 15px 25px;
+			background-color: #ff8000;
+			color: #fff;
+			box-shadow: 0px 0px 5px #ff8000;
+			display: inline-block;
+			border-radius: 40px;
+
+
+		}
+		.hamburger {
+			position: fixed;
+			margin-left: 2vw;
+			margin-top: 2vh;
+			transition: 300ms;
+			z-index: 300;
+		}
+		.bar {
+			height: 2px;
+			width: 40px;
+			background: #333;
+			border-radius: 3px;
+			position: relative;
+			margin-top: 5px;
+			transition: 300ms ;
+
+		}
+		.bar--ac {
+			background-color: #fff;
+		}
+
+		.sidepanel {
+			position: fixed;
+			height: 100vh;
+			z-index: 99;
+			left: 0;
+			top: 0;
+			width: 0vw;
+			transition: 300ms;
+			background-color: #000;
+			text-align: center;
+			overflow-x: hidden;
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+		}
+		.stext {
+			margin: 2vh 0 2vh 0;
+			font-size: 34px;
+		}
+		.bar1--ac{
+			transform: rotate(45deg);
+			color: #fff;
+
+		}
+		.bar2--ac {
+			display: none;
+		}
+		.bar3--ac{
+			transform: rotate(-45deg);
+			margin-left: -8px;
+			margin-bottom: 4px;
+			color: #fff;
+		}
+		.two {
+			display: flex;
+			padding-top: 10vh;
+			padding-bottom: 10vh;
+
+
+		}
+		.two-img {
+			width: 50vw;
+			background-image: url('sampann.jpg');
+			height: 50vh;
+			background-size: contain;
+			background-position: center;
+			background-repeat: no-repeat;
+
+		}
+		.two-text {
+			width: 50vw;
+			text-align: center;
+			margin-top: auto;
+			margin-bottom: auto;
+			font-family: 'Ubuntu';
+
+		}
+		.head {
+			font-size: 50px;
+			font-family: 'Montserrat'
+		}
+		.hr {
+			height: 1px;
+			width: 7vw;
+			background-color: #000;
+			margin:auto;
+		}
+		.ttext {
+			width: 30vw;
+			margin:auto;
+		}
+		.three-img {
+			background: url('order.png');
+			background-repeat: no-repeat;
+			background-position: center;
+			transform: rotateY(180deg);
+			background-size: cover;
+		}
+		.white {
+			color: white;
+		}
+		.white-bg {
+			background-color: #fff;
+		}
+		.four-img {
+			background: url('biker.png');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 350px;
+		}
+		.box {
+			padding: 10vh 0 10vh 0;
+			background-color: #000;
+
+		}
+		.box-container {
+			display: flex;
+			flex-direction: row;
+			width: 80vw;
+			margin: auto;
+		}
+		.header {
+			font-size: 50px;
+			text-align: center;
+			color: #fff;
+
+		}
+		.bowl-img {
+			height: 40vh;
+			width: 25vw;
+			background-image: url('bowl.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.random-image {
+			height: 40vh;
+			width: 25vw;
+			background-image: url('random.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.egg-image {
+			height: 40vh;
+			width: 25vw;
+			background-image: url('eggs.png');
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.tt {
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			text-transform: uppercase;
+			font-family: 'Raleway'
+		}
+		.arrow {
+			background-image: url('arrow.png');
+			height: 7vh;
+			width: 5vw;
+			background-position: center;
+			background-repeat: no-repeat;
+			margin-top: auto;
+			margin-bottom: auto;
+
+		}
+		.cards {
+			padding: 10vh 0 10vh 0;
+			display: flex;
+			flex-direction: row;
+			width: 80vw;
+			margin: auto;
+			justify-content: space-around;
+		}
+		.menu {
+			padding: 8vh 0 0vh 0;
+
+		}
+		.card {
+			height: auto;
+			padding-top: 4vh;
+			padding-bottom: 4vh; 
+			width: 20vw;
+			box-shadow: 0px 0px 8px 6px #eee;
+			border-radius: 10px;
+		}
+		.m-head {
+			font-size: 70px;
+			text-align: center;
+
+		}
+		
+		.pizza-img {
+			background: url('pizza.jpg');
+			height: 40vh;
+			width: inherit;
+			background-position: center; 
+			background-repeat: no-repeat;
+			background-size: contain;
+
+		}
+		.des {
+			font-size: 25px;
+			text-align: center;
+		}
+		.phone {
+			width: calc(100vw/3);
+			text-align: center;
+			border-right: 2px solid #000;
+		}
+		.fa {
+
+			font-size: 40px;
+		}
+		.ptext {
+			font-size: 24px;
+			margin-top: 2vh;
+		}
+		.contact-container {
+			padding-top: 10vh;
+			padding-bottom: 5vh;
+		}
+		.contact-head {
+			text-align: center;
+			font-size: 50px;
+		} 
+		hr {
+			width: 100vw;
+			height: 1px;
+			background-color: #000;
+		}
+		.phone {
+			padding: 5vh 0 5vh 0;		
+		}
+		.plus-minus {
+			font-size: 35px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			width:inherit;
+
+			
+		
+
+		}
+		.plus, .minus {
+			border-radius: 50%;
+			border: 1px solid #ff8000;
+			padding: 0vh 1vw 0vh 1vw;
+		}
+		.cart {
+				position: fixed;
+				right: 3vw;
+				top: 2vh;
+		}
+		.cart-panel {
+			width: 0vw; /*22vw*/
+			position: fixed;
+			right: 0;
+			top: 0;
+			background-color: #f1f1f1;
+			height: 100vh;
+			z-index: 100;
+			transition: 300ms;
+			text-align: center;
+			/*display: flex;
+			flex-direction: column;
+			
+			align-items: center; */ 
+			
+			
+			
+			overflow: hidden;
+		}
+
+		.block {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin-top: 4vh;
+
+
+		}
+		.block .quantity {
+			padding: 2vh 1.5vw 2vh 1.5vw;
+			background-color: #ff8000;
+		}
+		.block .name{
+			padding: 2vh 2.5vw 2vh 2.5vw;
+			background: #fff
+		}
+		.fimg {
+			background-image: url('fries.jpg'); 
+		}
+		
+		.bimg {
+			background-image: url('burger.jpg');
+			background-size: cover;
+		}
+		.contact {
+
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			
+		}
+		.con-card {
+			height: auto;
+			width: 30vw;
+			text-align: center;
+			padding: 4vh 0 4vh 0;
+			border-right: 1px solid #333;
+		}
+		.con-text {
+				font-size: 20px;
+				margin-top: 0vh;
+				margin-bottom: 3vh;
+		}
+		.ham--ac{
+			
+			margin-left: 18vw;
+			
+		}
+		.active {
+			width: 22vw;
+		}
+
+		.line {
+			height: 1px;
+			width: 5vw;
+			background: #000;
+			margin: auto;
+
+		}
+		.hamburger, .plus , .minus , .cart , .stext , .butt, .close-cart{
+			cursor: pointer;
+			user-select: none;
+		}
+		.des {
+			user-select: none;
+		}
+		.wrap {
+			display: flex;
+			flex-direction: column;
+		
+			height: 50vh;
+		}
+	
+		
